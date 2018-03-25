@@ -7,3 +7,10 @@ export function fetchUser() {
     }
  }
 }
+
+export function inputChanged(value) {
+  return {
+    type: "INPUT_CHANGED",
+    payload: value,
+  }
+ }
